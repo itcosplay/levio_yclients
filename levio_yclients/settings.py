@@ -93,3 +93,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LEVIO_BACKEND_URL = env.str("LEVIO_BACKEND_URL")
